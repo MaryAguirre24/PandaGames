@@ -71,7 +71,7 @@
             this.btnAgregar.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.Color.Red;
-            this.btnAgregar.Location = new System.Drawing.Point(827, 143);
+            this.btnAgregar.Location = new System.Drawing.Point(157, 276);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(94, 30);
             this.btnAgregar.TabIndex = 3;
@@ -118,11 +118,11 @@
             this.lstJuegos.ItemHeight = 20;
             this.lstJuegos.Items.AddRange(new object[] {
             "The Last Of Us"});
-            this.lstJuegos.Location = new System.Drawing.Point(213, 294);
+            this.lstJuegos.Location = new System.Drawing.Point(444, 174);
             this.lstJuegos.Name = "lstJuegos";
             this.lstJuegos.ScrollAlwaysVisible = true;
             this.lstJuegos.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lstJuegos.Size = new System.Drawing.Size(589, 204);
+            this.lstJuegos.Size = new System.Drawing.Size(358, 344);
             this.lstJuegos.TabIndex = 10;
             this.lstJuegos.SelectedIndexChanged += new System.EventHandler(this.lstJuegos_SelectedIndexChanged);
             // 
@@ -130,7 +130,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(411, 145);
+            this.label3.Location = new System.Drawing.Point(102, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 22);
             this.label3.TabIndex = 11;
@@ -140,7 +140,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(621, 143);
+            this.label4.Location = new System.Drawing.Point(131, 229);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 22);
             this.label4.TabIndex = 12;
@@ -156,7 +156,7 @@
             "PS5",
             "XBOX S",
             "PC"});
-            this.cmbPlataforma.Location = new System.Drawing.Point(522, 143);
+            this.cmbPlataforma.Location = new System.Drawing.Point(213, 188);
             this.cmbPlataforma.Name = "cmbPlataforma";
             this.cmbPlataforma.Size = new System.Drawing.Size(76, 30);
             this.cmbPlataforma.TabIndex = 13;
@@ -164,17 +164,18 @@
             // txtPrecio
             // 
             this.txtPrecio.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecio.Location = new System.Drawing.Point(693, 143);
+            this.txtPrecio.Location = new System.Drawing.Point(213, 229);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(109, 29);
             this.txtPrecio.TabIndex = 14;
+            this.txtPrecio.Text = "$";
             // 
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.Color.Red;
-            this.btnEliminar.Location = new System.Drawing.Point(827, 263);
+            this.btnEliminar.Location = new System.Drawing.Point(708, 140);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(94, 28);
             this.btnEliminar.TabIndex = 16;
@@ -187,7 +188,7 @@
             this.lblJuegos.AutoSize = true;
             this.lblJuegos.BackColor = System.Drawing.Color.DarkRed;
             this.lblJuegos.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJuegos.Location = new System.Drawing.Point(210, 272);
+            this.lblJuegos.Location = new System.Drawing.Point(451, 143);
             this.lblJuegos.Name = "lblJuegos";
             this.lblJuegos.Size = new System.Drawing.Size(0, 22);
             this.lblJuegos.TabIndex = 17;

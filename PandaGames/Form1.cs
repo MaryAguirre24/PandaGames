@@ -60,7 +60,7 @@ namespace PandaGames
             {
                 lstJuegos.Items.RemoveAt(indice);
 
-                
+              
             }
             
             
@@ -69,19 +69,19 @@ namespace PandaGames
         private void btnAgregar_Click(object sender, EventArgs e)
         {
 
-            string juego = txtNombre.Text;
+            string nombre = txtNombre.Text;
             string plataforma = cmbPlataforma.Text;
             string precio = txtPrecio.Text;
 
 
-            if (string.IsNullOrWhiteSpace(juego) || string.IsNullOrWhiteSpace(plataforma) || string.IsNullOrWhiteSpace(precio))
+            if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(plataforma) || string.IsNullOrWhiteSpace(precio))
             {
                 MessageBox.Show("Por favor, completa todos los campos.");
                 return;
             }
 
-            string item = txtNombre.Text + " - " + cmbPlataforma.Text + " - " + txtPrecio.Text;
-            lstJuegos.Items.Add(item);
+            string juego = ( txtNombre.Text + " - " + cmbPlataforma.Text + " - " + txtPrecio.Text);
+            lstJuegos.Items.Add(juego);
 
             // Limpiar los campos
             txtNombre.Clear();
